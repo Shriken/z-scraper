@@ -1,1 +1,1 @@
-A tool to scrape stuycs-softdev.github.io (Mr Zamansky's Softdev site) for new homework posts.
+A tool to scrape [Mr Zamansky's](github.com/zamansky) [Software Development site](stuycs-softdev.github.io) for new homework posts.
