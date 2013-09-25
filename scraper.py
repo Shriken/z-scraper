@@ -15,14 +15,14 @@ t = t[:t.find('</div>') - 9]
 
 def numAssignments(page):
 	count = 0
-	flag = False
+	lastHomeworkFound = False
 
-	while not flag:
+	while not lastHomeworkFound:
 		findString = 'hw-%i-github.html'%(count+1)
 		index = page.find(findString)
-		flag = (index == -1)
+		lastHomeworkFound = (index == -1)
 
-		if not flag:
+		if not lastHomeworkFound:
 			count += 1
 
 	return count
